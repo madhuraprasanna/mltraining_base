@@ -1,0 +1,12 @@
+pandas
+scikit-learn
+openpyxl
+dvc
+ipykernel
+plotly
+matplotlib
+seaborn
+nbformat>=4.2.0
+pyarrow
+fastparquet
+kaleido

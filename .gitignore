@@ -1,0 +1,130 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+mlops-env/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+
+# DVC - Data directories (tracked by DVC, not Git)
+/models
+/data/raw
+/data/processed
+/data/features
+/reports
+/plot_data
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+dvc_plots/
+
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Large data files
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+*.db
+
+# Model artifacts
+*.joblib
+*.model
+*.weights
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Documentation builds
+docs/_build/
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary directories
+tmp/
+temp/
+.tmp/
+
+# Configuration files with sensitive data
+# config.ini
+# secrets.yaml
+
+# Large Excel files (but keep your input data)
+*.xlsx
+!data/input/WA_Fn-UseC_-Telco-Customer-Churn_dirty.xlsx
+
+# Generated plots (optional - uncomment if you don't want to track them)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
+
+# Windows specific
+*.lnk
